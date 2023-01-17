@@ -2,6 +2,23 @@ body {
     background-color: #ffebef;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#header{
+    padding: 10px 16px;
+    background: #f3d0d7;
+    border: 2px solid rgb(161, 84, 84);
+    color: #f1f1f1;
+    font-family: "Garamond";
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
 h1 {
     color: #e7607b;
     white-space: nowrap;
@@ -84,4 +101,8 @@ button:hover {
 #laptopImage {
     border-radius: 8px;
     border: 2px solid black;
+    transition: .2s;
+}
+#laptopImage:hover {
+    transform: scale(1.2);
 }
