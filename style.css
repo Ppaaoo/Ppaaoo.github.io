@@ -1,0 +1,87 @@
+body {
+    background-color: #ffebef;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: #e7607b;
+    white-space: nowrap;
+}
+h3 {
+    color: #ff9fb2;
+}
+
+button {
+    background-color: #e7607b;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    margin: 5px;
+}
+button:hover {
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.24), 0 10px 15px 0 rgba(0,0,0,0.19);
+}
+#payButton {
+    padding: 10px 30px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#payButton:hover {
+    background-color:aquamarine;
+}
+#payButton:active {
+    background-color:rgb(84, 201, 162);
+}
+
+#laptops {
+    background-color:  #faadbd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 2px solid #ee9cac;
+    border-radius: 4px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+#bankDiv {
+    background-color: #f7dde2;
+    border: 2px solid #e4c4ca;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+#workDiv {
+    background-color: #f7dde2;
+    border: 2px solid #e4c4ca;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+#laptopDiv {
+    background-color: #f7dde2;
+    border: 2px solid #e4c4ca;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+#featuresDiv {
+    background-color: #fae8ec;
+    border: 2px solid #faadbd;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+#laptopImage {
+    border-radius: 8px;
+    border: 2px solid black;
+}
